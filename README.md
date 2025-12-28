@@ -48,30 +48,32 @@ Follow the steps below to run **Movie Night** locally:
 ### 1. Clone this repository
 
 ### 2. Install dependencies
- 
+ ```bash
  npm install
-
+```
  ### 3. Add your TMDB API key and PORT
  - create a .env file
 
  - add to your .env:
- 
+ ```env
  *APIKEY* =your_tmdb_api_key_here
 
  *PORT=* port_to_run  
-
+```
  sugest port number 3000;
 
  ### 4. Start the server
-
+```bash
  npm run dev
-
+```
 ### 5.Open the app
-
+```
 http://localhost:your_port
-
-*example:* http://localhost:3000
-
+```
+*example:* 
+```
+http://localhost:3000
+```
 
 ## License
 
